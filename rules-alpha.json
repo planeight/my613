@@ -1,0 +1,12 @@
+{
+  "rules": [
+    { "pathname": "/robots.txt", "dest": "robots.alpha.my613.com" },
+    { "pathname": "/api", "dest": "api.alpha.my613.com" },
+    { "pathname": "/api/**", "dest": "api.alpha.my613.com" },
+    { "pathname": "/auth", "dest": "api.alpha.my613.com" },
+    { "pathname": "/auth/**", "dest": "api.alpha.my613.com" },
+    { "pathname": "/websocket", "dest": "api.alpha.my613.com" },
+    { "pathname": "/websocket/**", "dest": "api.alpha.my613.com" },
+    { "dest": "ssr-server.alpha.my613.com" }
+  ]
+}

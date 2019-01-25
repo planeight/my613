@@ -1,0 +1,16 @@
+session_name: my613
+start_directory: ./
+windows:
+  - window_name: dev
+    layout: main-vertical
+    focus: true
+    panes:
+      - nano
+      - echo "Development here"
+  - window_name: servers
+    layout: tiled
+    panes:
+      - yarn run dev:api
+      - yarn run dev:web
+      - yarn run dev:email-worker
+      - yarn run dev:notification-worker

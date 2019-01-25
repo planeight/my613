@@ -1,0 +1,11 @@
+{
+  "rules": [
+    { "pathname": "/api", "dest": "api.my613.com" },
+    { "pathname": "/api/**", "dest": "api.my613.com" },
+    { "pathname": "/auth", "dest": "api.my613.com" },
+    { "pathname": "/auth/**", "dest": "api.my613.com" },
+    { "pathname": "/websocket", "dest": "api.my613.com" },
+    { "pathname": "/websocket/**", "dest": "api.my613.com" },
+    { "dest": "ssr-server.workers.my613.com" }
+  ]
+}
